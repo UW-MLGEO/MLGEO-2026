@@ -1,0 +1,5 @@
+title: ESS 469/569 - Machine Learning for the Geosciences
+description: Course materials for ESS 469/569
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+- jekyll-remote-theme
