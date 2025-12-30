@@ -25,48 +25,38 @@ Teaching assistant
 
 ### Schedule
 
-| Date                   | Topic |
-|------------------------|-------|
-| *Week 1*               |       |
-| Monday, January 5      | An introduction to the course.      |
-| Wednesday, January 7   | Setting up a programming environment & best practices for software development.       |
-| Friday, January 9      | [Student introductions](assignments/introductions.md).      |
-| *Week 2*               |       |
-| Monday, January 12     | Data types.      |
-| Wednesday, January 14  |       |
-| Friday, January 16     |       |
-| *Week 3*               |       |
-| Monday, January 19     | *No class on account of Martin Luther King Jr. Day.* |
-| Wednesday, January 21  |       |
-| Friday, January 23     |       |
-| *Week 4*               |       |
-| Monday, January 26     |       |
-| Wednesday, January 28  |       |
-| Friday, January 30     |       |
-| *Week 5*               |       |
-| Monday, February 2     |       |
-| Wednesday, February 4  |       |
-| Friday, February 6     |       |
-| *Week 6*               |       |
-| Monday, February 9     |       |
-| Wednesday, February 11 |       |
-| Friday, February 13    |       |
-| *Week 7*               |       |
-| Monday, February 16    |       |
-| Wednesday, February 18 |       |
-| Friday, February 20    |       |
-| *Week 8*               |       |
-| Monday, February 23    |       |
-| Wednesday, February 25 |       |
-| Friday, February 27    |       |
-| *Week 9*               |       |
-| Monday, March 2        |       |
-| Wednesday, March 4     |       |
-| Friday, March 6        |       |
-| *Week 10*              |       |
-| Monday, March 9        |       |
-| Wednesday, March 11    | Final presentations |
-| Friday, March 13       | Final presentations |
+| Week | Date                   | Topic |
+|------|------------------------|-------|
+| 1    | Monday, January 5      | An introduction to the course.      |
+|      | Wednesday, January 7   | Setting up a programming environment & best practices for software development.       |
+|      | Friday, January 9      | [Student introductions](assignments/introductions.md).      |
+| 2    | Monday, January 12     | Data types.      |
+|      | Wednesday, January 14  |       |
+|      | Friday, January 16     |       |
+| 3    | Monday, January 19     | *No class on account of Martin Luther King Jr. Day.* |
+|      | Wednesday, January 21  |       |
+|      | Friday, January 23     |       |
+| 4    | Monday, January 26     |       |
+|      | Wednesday, January 28  |       |
+|      | Friday, January 30     |       |
+| 5    | Monday, February 2     |       |
+|      | Wednesday, February 4  |       |
+|      | Friday, February 6     |       |
+| 6    | Monday, February 9     |       |
+|      | Wednesday, February 11 |       |
+|      | Friday, February 13    |       |
+| 7    | Monday, February 16    |       |
+|      | Wednesday, February 18 |       |
+|      | Friday, February 20    |       |
+| 8    | Monday, February 23    |       |
+|      | Wednesday, February 25 |       |
+|      | Friday, February 27    |       |
+| 9    | Monday, March 2        |       |
+|      | Wednesday, March 4     |       |
+|      | Friday, March 6        |       |
+| 10   | Monday, March 9        |       |
+|      | Wednesday, March 11    | Final presentations |
+|      | Friday, March 13       | Final presentations |
 
 
 ### Materials
