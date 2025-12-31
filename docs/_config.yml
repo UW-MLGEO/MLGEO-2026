@@ -3,7 +3,6 @@ description: Course materials for the Winter 2026 iteration of ESS 469/569.
 remote_theme: pages-themes/primer@v0.6.0
 plugins:
 - jekyll-remote-theme
-
 navigation:
   - name: Home
     link: /
