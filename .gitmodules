@@ -1,3 +1,3 @@
-[submodule "docs/themes/archie"]
-	path = docs/themes/archie
-	url = https://github.com/athul/archie.git
+[submodule "docs/themes/no-style-please"]
+	path = docs/themes/no-style-please
+	url = https://github.com/Masellum/hugo-theme-nostyleplease.git

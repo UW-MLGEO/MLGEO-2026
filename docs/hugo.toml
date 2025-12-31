@@ -1,23 +1,16 @@
-baseURL = 'https://uw-mlgeo.github.io/MLGEO-2026/'
+baseURL = 'https://uw-mlgeo.github.io/'
 languageCode = 'en-us'
-title = "Machine Learning for the Geosciences: Winter 2026"
-description = "Course materials for the Winter 2026 iteration of ESS 469/569."
-theme = "archie"
+title = "Machine Learning for the Geosciences"
+theme = "no-style-please"
 
-[[menus.nav]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menus.nav]]
-  name = "Syllabus"
-  url = "/syllabus/"
-  weight = 2
-
-[[menus.nav]]
-  name = "Assignments"
-  url = "/assignments/"
-  weight = 3
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
 
 [caches]
   [caches.images]

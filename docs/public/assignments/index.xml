@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assignments on Machine Learning for the Geosciences: Winter 2026</title>
-    <link>http://localhost:1313/MLGEO-2026/assignments/</link>
-    <description>Recent content in Assignments on Machine Learning for the Geosciences: Winter 2026</description>
+    <title>Assignments on Machine Learning for the Geosciences</title>
+    <link>http://localhost:1313/assignments/</link>
+    <description>Recent content in Assignments on Machine Learning for the Geosciences</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/MLGEO-2026/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/assignments/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Student Introductions</title>
-      <link>http://localhost:1313/MLGEO-2026/assignments/introductions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MLGEO-2026/assignments/introductions/</guid>
-      <description>&lt;h1 id=&#34;student-introductions&#34;&gt;Student Introductions&lt;/h1&gt;</description>
+      <title>Student introductions</title>
+      <link>http://localhost:1313/assignments/introductions/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/assignments/introductions/</guid>
+      <description>&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;h2 id=&#34;deadline&#34;&gt;Deadline&lt;/h2&gt;&#xA;&lt;p&gt;You should fill out your slides by &lt;u&gt;&lt;strong&gt;9:00 AM on Friday, January 9&lt;/strong&gt;&lt;/u&gt;. You will present your slides (strictly timed!) in class that day.&lt;/p&gt;&#xA;&lt;h2 id=&#34;follow-up&#34;&gt;Follow up&lt;/h2&gt;&#xA;&lt;p&gt;After everyone presents on Friday,&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

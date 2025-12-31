@@ -1,0 +1,11 @@
+[[entries]]
+title = "Syllabus"
+url = "syllabus"
+
+[[entries]]
+title = "Assignments"
+url = "assignments"
+
+  [entries.post_list]
+  section = "assignments"
+  show_more = false

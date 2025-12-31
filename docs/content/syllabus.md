@@ -1,8 +1,8 @@
 ---
 title: Syllabus
+date: 2025-12-10
+draft: false
 ---
-
-# Syllabus
 
 ## Logistics
 
@@ -33,18 +33,18 @@ Teaching assistant
 
 | Week | Date                   | Topic |
 |------|------------------------|-------|
-| 1    | Monday, January 5      | An introduction to the course.      |
+| 1    | Monday,  January 5      | An introduction to the course. <br /> *Assignment: [Introduction slides](/assignments/introductions).*    |
 |      | Wednesday, January 7   | Setting up a programming ecosystem and best practices for software development.       |
-|      | Friday, January 9      | [Student introductions](assignments/introductions.md).      |
-| 2    | Monday, January 12     | Data: Types, formats, and availability.      |
+|      | Friday, January 9      | Student introductions.      |
+| 2    | Monday, January 12     | Data: Types, formats, and availability.  <br /> *Assignment: Setting up a project question.*      |
 |      | Wednesday, January 14  | Data: Access, storage, and management.      |
-|      | Friday, January 16     | Project presentations: Data and question.     |
+|      | Friday, January 16     | Project presentations: Questions and associated data sources.     |
 | 3    | Monday, January 19     | *No class on account of Martin Luther King Jr. Day.* |
-|      | Wednesday, January 21  |       |
-|      | Friday, January 23     |       |
-| 4    | Monday, January 26     |       |
+|      | Wednesday, January 21  | Characterizing data (including visualization).      |
+|      | Friday, January 23     | Dimensional reduction (e.g., via cross-correlations and PCA).      |
+| 4    | Monday, January 26     | Clustering      |
 |      | Wednesday, January 28  |       |
-|      | Friday, January 30     |       |
+|      | Friday, January 30     | Project presentations:        |
 | 5    | Monday, February 2     |       |
 |      | Wednesday, February 4  |       |
 |      | Friday, February 6     |       |
