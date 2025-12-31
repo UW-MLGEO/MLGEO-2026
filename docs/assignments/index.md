@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: spec
 title: Assignments
 ---
 
