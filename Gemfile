@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "jekyll-theme-tufte"
+gem "jekyll-remote-theme"
 gem "webrick", "~> 1.8"
