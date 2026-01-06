@@ -15,7 +15,7 @@ For this assignment, you will assemble **up to two slides** that tell us:
 4. Your long-term goals. 
 5. Experiences you may have with AI/ML.
 
-Please put your completed slides into [this document](https://docs.google.com/presentation/d/104johrIJ4_nh40i673fsOVwcJtfAkBH918SZ5CY4ZHs/edit?usp=share_link){{< footnote >}}Feel free to edit directly in the document.{{< /footnote >}}.
+Please put your completed slides into [this document](https://docs.google.com/presentation/d/104johrIJ4_nh40i673fsOVwcJtfAkBH918SZ5CY4ZHs/edit?usp=share_link) You should feel free to edit directly in the document.
 
 **You will have exactly one minute to present your slides to the class.** I will *strictly* enforce this time limit.
 
