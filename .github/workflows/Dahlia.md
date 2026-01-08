@@ -1,1 +1,0 @@
-## Dahlia Gietka, 2026, Earth and Space Science: Geoscience
