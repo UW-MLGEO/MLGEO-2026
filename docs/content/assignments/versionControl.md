@@ -15,7 +15,7 @@ To practice the ```git``` operations we discussed in class.
    - Graduation year
    - Major
 
-    Note: Each entry should be under a ```h2``` heading.
+    Note: Each parameter should be under a ```h2``` heading.
 
 4. Commit your changes and push your branch to the origin. 
 5. Submit a pull request.
