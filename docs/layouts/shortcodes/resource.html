@@ -4,7 +4,7 @@
 
 {{ if $resource }}
   {{ if hasSuffix $src ".scss" }}
-    {{ $url = ($resource | resources.ToCSS).RelPermalink }}
+    {{ $url = ($resource | css.Sass).RelPermalink }}
   {{ else }}
     {{ $url = $resource.RelPermalink }}
   {{ end }}
