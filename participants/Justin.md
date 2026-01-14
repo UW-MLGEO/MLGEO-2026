@@ -1,3 +1,6 @@
-## Justin Lee 
-## 2027 Third year undergrad
-## Bioengineering
+## Name
+Justin Lee 
+## Graduation year
+2027 Third year undergrad
+## Major
+Bioengineering

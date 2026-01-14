@@ -1,9 +1,0 @@
-/* Custom styles for definition lists */
-dl dt { 
-  margin-top: 1rem; 
-}
-
-dl dd { 
-  margin-bottom: 1rem; 
-  margin-left: 0;
-}

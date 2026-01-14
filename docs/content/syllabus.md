@@ -9,23 +9,16 @@ tocBorder: true
 ## Logistics
 
 Instructor
-: Akshay Mehra
-
-Email
-: akmehra [at] uw.edu
-
-Office 
-: JHN 245
-
-Office hours 
-: *TBA*
-
-Class times and locations
-: Lectures are on Mondays, Wednesdays, and Fridays from 13:30 to
-14:50 in JHN 111.
+: Akshay Mehra / JHN 245 / akmehra [at] uw.edu
 
 Teaching assistant
-: Henry Yuan
+: Henry Yuan / JHN 265 / hdyuan [at] uw.edu
+
+Office hours 
+: Fridays from 10:00 to 12:00 (Henry; JHN 241) 12:00 to 13:00. (Akshay; JHN 245)
+
+Class times and locations
+: Lectures are on Mondays, Wednesdays, and Fridays from 13:30 to 14:50 in JHN 111.
 
 ## Description
 

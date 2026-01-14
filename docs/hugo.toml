@@ -1,4 +1,4 @@
-baseURL = 'https://uw-mlgeo.github.io/'
+baseURL = 'https://uw-mlgeo.github.io/MLGEO-2026/'
 languageCode = 'en-us'
 title = "Machine Learning for the Geosciences"
 theme = "no-style-please"

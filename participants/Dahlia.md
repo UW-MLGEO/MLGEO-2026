@@ -1,1 +1,7 @@
-## Dahlia Gietka, 2026, Earth and Space Science: Geoscience
+## Name
+Dahlia Gietka
+## Year
+2026
+## Major
+ Earth and Space Science: Geoscience
+ 
