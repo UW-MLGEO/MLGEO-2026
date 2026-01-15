@@ -1,6 +1,6 @@
 ---
 title: "02 | Student introductions"
-date: 2025-01-05
+date: 2026-01-06
 ---
 
 ## Objectives

@@ -1,15 +1,15 @@
 {{- $posts := "" -}}
 
 {{- if .section -}}
-    {{- $posts = (where site.RegularPages "Section" .section) -}}
+    {{- $posts = ((where site.RegularPages "Section" .section).ByDate.Reverse) -}}
 {{- else -}}
     {{- if (eq .context.Kind "taxonomy") -}}
-        {{- $posts = .context.Pages -}}
+        {{- $posts = .context.Pages.ByDate.Reverse -}}
     {{- else -}}
         {{- if (eq .context.Kind "term") -}}
-            {{- $posts = .context.Data.Pages -}}
+            {{- $posts = .context.Data.Pages.ByDate.Reverse -}}
 	{{- else -}}
-            {{- $posts = site.RegularPages }}
+            {{- $posts = site.RegularPages.ByDate.Reverse }}
 	{{- end -}}
     {{- end -}}
 {{- end -}}
@@ -28,7 +28,11 @@
     <ul>
         {{- range $post := $posts -}}
         <li>
+            {{- if eq $post.Section "notes" -}}
+            {{ $post.Date.Format "January 02" }} | <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
+            {{- else -}}
             <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
+            {{- end -}}
         </li>
         {{ end }}
         {{- if and .show_more $limit_exceeded }}

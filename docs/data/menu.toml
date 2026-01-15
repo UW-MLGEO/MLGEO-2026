@@ -3,11 +3,11 @@ title = "Syllabus"
 url = "syllabus"
 
 [[entries]]
-title = "Lecture notes"
-url = "lectures"
+title = "Class notes"
+url = "notes"
 
   [entries.post_list]
-  section = "lectures"
+  section = "notes"
   show_more = true
 
 [[entries]]

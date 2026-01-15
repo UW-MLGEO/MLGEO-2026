@@ -1,4 +1,4 @@
-baseURL = 'https://uw-mlgeo.github.io/'
+baseURL = 'https://uw-mlgeo.github.io/MLGEO-2026/'
 languageCode = 'en-us'
 title = "Machine Learning for the Geosciences"
 theme = "no-style-please"
@@ -6,6 +6,7 @@ theme = "no-style-please"
 [params]
   [params.theme_config]
     back_home_text = "Machine learning for the geosciences"
+    isListGroupByDate = true
 
 [markup]
   [markup.goldmark]
