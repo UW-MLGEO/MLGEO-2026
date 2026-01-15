@@ -1,5 +1,5 @@
 
-# Multimodal Data Reveal Climatic Connections to Stehekin, WA Debris Flows in December, 2025
+# Multimodal Data Reveal Climatic Connections to Stehekin, WA Debris Flows in December 2025
 In December 2025, atmospheric rivers brought significant rainfall to the North Cascades. This coincided with massive debris flows in the nearby town of Stehekin, WA, which was affected by forest fires in recent years. Without forest root systems to hold the soil, this region was sensitive to debris flows given sufficient soil moisture levels. While exact soil moisture can be challenging to measure, total precipitation and river gauge data can present a cohesive picture of rainfall and soil drainage, the two factors controlling soil moisture.
 
 To visualize the relationship between these variables, multimodal data are pulled from APIs and plotted below.
@@ -9,7 +9,7 @@ To visualize the relationship between these variables, multimodal data are pulle
 Analyzing NOAA daily precipitation data from Stehekin, WA in December 2025, we see that two rainfall maxima occur: December 9-13 and December 16 (Fig. 1) Precipitation represents flux into the soil moisture system, but doesn't contain information about soil drainage, a second important constraint on debris flow triggering.
 
 ![Precipitation plot](stehekin_precipitation.png)
-#Figure 1: Daily precipitation measrues from Stehekin, WA show multiple maxima surrounding December 9-17.*
+*Figure 1: Daily precipitation measrues from Stehekin, WA show multiple maxima surrounding December 9-17.*
 
 ## USGS Stream Gauge Data
 Visualizing USGS daily stream gauge data from Stehekin, WA in December 2025, we see that the gauge maximum occurs on December 11, with a volumetric flux of 14,000 cubic feet per second (Fig. 2). This measure serves as an excellent proxy for soil moisture, as it captures flux into the system (rainfall) and flux out of the system (river drainage).
