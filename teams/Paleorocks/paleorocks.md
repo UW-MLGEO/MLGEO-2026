@@ -28,8 +28,9 @@ In December 2025, heavy rain, falling over recently burned land, caused debris f
 3. Built code based off of the Sepkoski Curve assignment, but instead of faunal data we inputted the USGS and weather URLs
 4. Used 'response' and 'print' to download CSV data from API URLs
 5. Used 'DataFile' to read the CSVs and then 'print' to inspect the column
-6. From NOAA Stehekin, WA precipitation data, created plots of 1) precipitation in mm vs date (December 2025) and 2) precipitation in mm vs date (December 2024) (for contextualization)
-7. From NOAA Monroe, WA precipitation data, created plots of 1) precipitation in mm vs date (December 2025) and 2) precipitation in mm vs date (December 2024) (for contextualization)
+6. From NOAA Stehekin, WA precipitation data, created plots of 1) precipitation in mm vs time (December 2025) (Figure 1) and 2) precipitation in mm vs time (December 2024) (for contextualization) (Figure 2)
+7. From NOAA Monroe, WA precipitation data, created plots of 1) precipitation in mm vs time (December 2025) (Figure 3) and 2) precipitation in mm vs time (December 2024) (for contextualization) (Figure 4)
+8. From USGS Stehekin WA stream gauge discharge data, created plots of 1) discharge vs time (days of December 2025) (Figure 5) and 2) discharge vs time (months of 2025) (Figure 6)
 
 ## Data Access:
 # Weather (NOAA, Weather Service)
