@@ -4,4 +4,4 @@ docs/public
 docs/resources
 
 #local data
-teams/volcanoes/data
+teams/volcanoes/data/*
