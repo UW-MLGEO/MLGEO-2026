@@ -8,6 +8,7 @@ In order to visualize this event, data has been pulled from the USGS Stream Gaug
 
 ### USGS Stream Gauge Data
 
+![Figure 1: Stehekin River Discharge](stehekin_discharge.png)
 
 In Figure 1 it is shown that discharge peaked On the 9th of December and experienced a secondary peak between the 13th and the 17th of December.
 
@@ -15,9 +16,11 @@ The average discharge of Stehekin River from January to November 2025 was 1184.3
 
 ### NOAA Precipitation Data
 
+![Figure 2: Stehekin NOAA Precipitation](stehekin_noaa_precipitation.png)
 
 In Figure 2 there are peak precipitation dates on the 9th, 13th, and the 17th. 
 
+![Figure 3: Stehekin Precipitation Year](stehekin_precipiation_year.png)
 
 Figure 3 shows the monthly preciptiation data at Stehekin 4 NW in order to visualize how this compares to the extreme weather event which occurred in December
 
