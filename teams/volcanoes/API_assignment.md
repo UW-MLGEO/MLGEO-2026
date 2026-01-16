@@ -38,9 +38,9 @@ The higher peak discharge and steeper rising limb in 2025 indicate more intense 
 ## Normalized Discharge Analysis
 To compare watershed response independent of absolute discharge magnitude, both events were normalized by their respective peak discharge values.
 
-![Normalized Discharge Comparison](normalizeddischargeComparison.png)
+![Normalized Discharge Comparison](normalizedDischargeComparison.png)
 
-The normalized hydrographs show that:
+The normalized hydrographs show:
 - The December 2025 event rises more abruptly than the 2021 event
 - Peak flow is reached more quickly, indicating rapid runoff
 - The sharp rise and fall suggest limited infiltration and storage capacity
