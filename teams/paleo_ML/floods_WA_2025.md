@@ -35,39 +35,19 @@ Required Python packages:
 - `json`: Data parsing
 
 ### Step 2: Retrieve USGS Discharge Data
-Make a GET request to USGS Water Services API with parameters:
-```python
-params = {
-    "format": "json",
-    "sites": "12451000",
-    "parameterCd": "00060",
-    "startDT": "2025-12-01",
-    "endDT": "2025-12-31"
-}
-```
+Make a GET request to USGS Water Services API with parameters.
 Parse the nested JSON response to extract discharge values with timestamps.
 
 ### Step 3: Retrieve NOAA Precipitation Data
-Make a GET request to NOAA CDO API with parameters:
-```python
-params = {
-    "datasetid": "GHCND",
-    "datatypeid": "PRCP",
-    "stationid": "GHCND:USC00458059",
-    "startdate": "2025-12-01",
-    "enddate": "2025-12-31",
-    "units": "metric",
-    "limit": 1000
-}
-headers = {"token": "YOUR_API_TOKEN"}
-```
+Make a GET request to NOAA CDO API with parameters, using a token.
+
 
 ### Step 4: Visualization
 Create a dual-axis plot showing:
 - Convert timestamps to pandas datetime objects
 - handle different datetime formats
 - **Left axis (blue)**: River discharge (cfs)
-- **Right axis (green)**: Precipitation (mm)
+- **Right axis (green)**: Precipitation (mm/10)
 - **Peak marker (red)**: Maximum discharge event
 
 ## API Best Practices
@@ -77,6 +57,8 @@ Create a dual-axis plot showing:
 
 ## Insights 
 These data (river gauge and precipitation) show a clear peak during mid december (december 11th), the precipitation data shows a build up before the discharge peak when the floods occurred.
+![Stehekin_discharge_precip_dec_2025](Stehekin_discharge_precip_dec_2025.png)
 
 ## Historical information context
 Looking at data from 2024 precipitation and river discharge for the same place, it is clear that decmber tends to be a month with high precipitation every year, but the 2025 events were more intense than in previous years.
+![Historical context 2024 data](Stehekin_discharge_precip_dec_2024.png)
