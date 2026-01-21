@@ -6,21 +6,21 @@ To visualize the relationship between these variables, multimodal data are pulle
 
 
 ## NOAA Precipitation Data
-Analyzing NOAA daily precipitation data from Stehekin, WA in December 2025, we see that two rainfall maxima occur: December 9-13 and December 16 (Fig. 1) Precipitation represents flux into the soil moisture system, but doesn't contain information about soil drainage, a second important constraint on debris flow triggering.
+Analyzing NOAA daily precipitation data from Stehekin, WA in December 2025, we see that two rainfall maxima occur: December 9-13 and December 17 (Fig. 1). Precipitation represents flux into the soil moisture system, but doesn't contain information about soil drainage, a second important constraint on debris flow triggering.
 
-![Precipitation plot](stehekin_precipitation.png)
+![Precipitation plot](../outputs/stehekin_precipitation.png)
 *Figure 1: Daily precipitation measrues from Stehekin, WA show multiple maxima surrounding December 9-17.*
 
 ## USGS Stream Gauge Data
 Visualizing USGS daily stream gauge data from Stehekin, WA in December 2025, we see that the gauge maximum occurs on December 11, with a volumetric flux of 14,000 cubic feet per second (Fig. 2). This measure serves as an excellent proxy for soil moisture, as it captures flux into the system (rainfall) and flux out of the system (river drainage).
 
-![River gauge plot](stehekin_discharge.png)
+![River gauge plot](../outputs/stehekin_discharge.png)
 *Figure 2: Daily stream gauge measures from Stehekin, WA show a monthly maxima on December 11.*
 
 ## PNSN Seismic Data
 Plotting several days of data around the precipitation and stream gauge maxima from the UW.DREAM three-component seismometer station in Stehekin, WA, it is clear that long-period debris flows occured across the day of the stream gauge maximum, and these debris flows began after several days of heavy rainfall (Fig. 3). This represents a critically oversaturated post-burn soil, which quickly washes out as debris flows across December 11 and in more brief periods over the following days.
 
-![Seismic plot](stehekin_seismic.png)
+![Seismic plot](../outputs/stehekin_seismic.png)
 *Figure 3: Seismic data for multiple days in Stehekin, WA show debris flows begin on the day of stream gauge maxima, December 11.*
 
 ## Data Accessbility
