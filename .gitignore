@@ -5,3 +5,6 @@ docs/resources
 
 #local data
 teams/volcanoes/data/*
+
+#outputs
+teams/Submarine_Volcanoes/*/outputs
