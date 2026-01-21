@@ -19,7 +19,7 @@ tocBorder: true
 In class:
 1. We completed an introductory survey.
 2. I introduced myself and provided some insights into my AI/ML philosophy.
-3. Together, we went through my plan for the course (see [syllabus](/syllabus) for details).
+3. Together, we went through my plan for the course (see [syllabus]({{< relref "../../syllabus.md" >}}) for details).
 
 ## The introductory survey
 
