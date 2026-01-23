@@ -15,7 +15,14 @@ In an ~8-minute-long presentation{{< footnote >}}Minimum length: 7 minutes. Maxi
 
 ## Evaluation
 
-*TBA*
+The instructors will evaluate you on (in order of importance):
+
+- **Completeness:** Did you fulfill all of the objectives? 
+- **Content quality:** Are your (i.) topics/questions, (ii.) data sources, and (iii.) data characterization(s) well-developed and of high quality? 
+- **Presentation:** Is your presentation compelling (i.e., both from a narrative and visual standpoint), clear, and concise? 
+- **Timing:** Did you follow the time limits?  
+
+**Quality of figures**:  
 
 ## Deadline
 
