@@ -1,5 +1,7 @@
 .DS_Store
 .Rhistory
+*.lock
+
 docs/public
 docs/resources
 
