@@ -10,3 +10,6 @@ teams/volcanoes/data/*
 
 #outputs
 teams/Submarine_Volcanoes/*/outputs
+
+#hiding images folder for BoydHoward Alaska Glacier assignment
+data/inClass/06.PCA/BoydHoward/images/*
