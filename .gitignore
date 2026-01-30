@@ -16,3 +16,6 @@ teams/Submarine_Volcanoes/*/outputs
 
 #hiding images folder for BoydHoward Alaska Glacier assignment
 data/inClass/06.PCA/BoydHoward/images/*
+
+#Hiding James Hiroto Jose CSV data PCA
+data/inClass/06.PCA/Volcanoes/*.csv
