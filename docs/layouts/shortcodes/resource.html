@@ -1,0 +1,21 @@
+{{ $src := .Get 0 }}
+{{ $resource := .Page.Resources.Get $src }}
+{{ $url := "" }}
+
+{{ if $resource }}
+  {{ if hasSuffix $src ".scss" }}
+    {{ $url = ($resource | css.Sass).RelPermalink }}
+  {{ else }}
+    {{ $url = $resource.RelPermalink }}
+  {{ end }}
+{{ else }}
+  {{ $url = $src }}
+{{ end }}
+
+{{ if hasSuffix $src ".js" }}
+<script src="{{ $url }}"></script>
+{{ else if or (hasSuffix $src ".css") (hasSuffix $src ".scss") }}
+<link rel="stylesheet" href="{{ $url }}">
+{{ else }}
+<!-- Unsupported resource type: {{ $src }} -->
+{{ end }}

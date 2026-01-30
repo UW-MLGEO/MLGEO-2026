@@ -1,0 +1,25 @@
+{{ $content := .Inner | markdownify }}
+{{ $lines := split $content "\n" }}
+{{ $h3Found := false }}
+{{ $h3Content := "" }}
+{{ $restContent := "" }}
+
+{{ range $lines }}
+  {{ if and (not $h3Found) (hasPrefix . "<h3") }}
+    {{ $h3Found = true }}
+    {{ $h3Content = . }}
+  {{ else if $h3Found }}
+    {{ $restContent = printf "%s\n%s" $restContent . }}
+  {{ end }}
+{{ end }}
+
+<div class="slide">
+{{ if $h3Content }}
+  {{ $h3Content | safeHTML }}
+  <div class="slide-content">
+    {{ $restContent | safeHTML }}
+  </div>
+{{ else }}
+  {{ $content | safeHTML }}
+{{ end }}
+</div>

@@ -1,0 +1,30 @@
+.chart-container {
+    margin-bottom: 0;
+}
+.question-label {
+    font-size: 0.8125rem;
+    font-family: 'IBM Plex Serif', serif;
+    fill: currentColor;
+}
+.bar-label {
+    font-size: 0.5625rem;
+    font-weight: bold;
+    fill: white;
+}
+.legend {
+    font-size: 1rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+.legend text {
+    fill: currentColor;
+}
+.axis text {
+    font-size: 10px;
+    fill: currentColor;
+}
+.axis line, .axis path {
+    stroke: currentColor;
+}
+.grid line {
+    stroke: currentColor;
+}

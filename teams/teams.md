@@ -1,0 +1,1 @@
+Here are directories corresponding to each team (largely for in-class assignments).
