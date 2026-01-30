@@ -17,6 +17,8 @@ variables were contributing to the patterns in the data.
 We mainly dropped these features because they were qualitative instead of quantitative, or because they were overwhelming the 
 PCA results (i.e. explaining 99% of the variance).
 
+We also visualized some of the variables, and used Claude AI to provide the code to do that. We told it to create visualizations of mean surface slope and glacier area. We also created a correlation matrix of all of the variables to get a feeling of how the variables relate to each other.
+
 ---
 
 ## PCA Results
