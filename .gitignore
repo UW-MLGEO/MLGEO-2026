@@ -5,8 +5,17 @@
 docs/public
 docs/resources
 
-#local data
+#Hiding group volcanoes data files
 teams/volcanoes/data/*
+
+#Hiding group Andy_Matt data files
+data/inclass/06.PCA/Andy_Matt/data/*
 
 #outputs
 teams/Submarine_Volcanoes/*/outputs
+
+#hiding images folder for BoydHoward Alaska Glacier assignment
+data/inClass/06.PCA/BoydHoward/images/*
+
+#Hiding James Hiroto Jose CSV data PCA
+data/inClass/06.PCA/Volcanoes/*.csv
