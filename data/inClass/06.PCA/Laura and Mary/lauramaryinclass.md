@@ -25,6 +25,7 @@ Step 5. Apply PCA and interpret results
 We did this to determine what features may be important for our analysis, and what features may be redundant. 
 
 ![Alaska Glacier Filtered Data Feature Correlation Matrix](Images/CorrMatrix.png)
+
 *Figure 1: Correlation matrix for filtered glacier data*
 
 We then used the correlation matrix for feature selection as follows:
@@ -57,37 +58,47 @@ We note that of the numerical data, we only chose to utilize terminal latitude a
 To visualize each of our selected features, we constructed histograms of each. This will help to see the distribution of selcted variables (normal? skewed? bimodal?), and outliers, and adjustments that may be needed.
 
 ![Terminal Longitude Histogram](Images/termlonHist.png)
+
 *Figure 2: Histogram for Terminal Longitude*
 
 ![Terminal Latitude Histogram](Images/termlatHist.png)
+
 *Figure 3: Histogram for Terminal Latitude*
 
 ![Mean Altitude Histogram](Images/zMeanHist.png)
+
 *Figure 4: Histogram for Mean Glacier Altitude*
 
 ![Aspect Degree Histogram](Images/AspDegHist.png)
+
 *Figure 5: Histogram for Aspect Degree*
 
 ![Slope Degree Histogram](Images/DegSlopeHist.png)
+
 *Figure 6: Histogram for Slope Degree*
 
 ![Area Histogram](Images/AreaHist.png)
+
 *Figure 7: Histogram for Glacier Area in Square Kilometers*
 
 ![Maximum Centerline Length Histogram](Images/lmaxHist2.png)
+
 *Figure 8: Histogram for Maximum Centerline Length in Kilometers*
 
 To get a clearer picture of the distribution of area and maximum centerline length of Alaskan glaciers, we zoomed in on these histograms (note that some data is cut off because of the zoom).
 
 ![Area Histogram Zoomed In](Images/Areazoom.png)
+
 *Figure 9: Histogram for Glacier Area in Square Kilometers (zoomed in)*
 
 ![Maximum Centerline Length Histogram](Images/lmaxzoom.png)
+
 *Figure 10: Histogram for Maximum Centerline Length in Kilometers (zoomed in)*
 
 We also plotted area versus maximum centerline length, as we noted a strong positive correlation between these variables. We note three outliers with extremely large area and centerline length. 
 
 ![Area vs Lmax Scatterplot](Images/areavslmax.png)
+
 *Figure 11: Area of glaciers vs. maximum centerline length*
 
 ### Conduct PCA Analysis
@@ -99,6 +110,7 @@ During our exploration of PCA, we also decided to include the maximum and minimu
 We constructed a scree plot for our 9 features, which shows how much variance of the dataset is explained with each principal component. We found that the first principal component explained the vast majority of the variance, with the second accounting for (essentially) the rest of the variance. We need at most 2 principal components to explain the majority of the data. 
 
 ![Initial Scree Plot](Images/initialscree.png)
+
 *Figure 12: Initial PCA scree plot*
 
 | Principal Component | Explained Variance | Explained Variance (%) |
@@ -117,11 +129,13 @@ We constructed a scree plot for our 9 features, which shows how much variance of
 We then plotted the results of PCA, the reprojected data. We see from this how the first principal component dominates. 
 
 ![Initial Projected Data Plot](Images/initialpca.png)
+
 *Figure 13: Initial projected data (Principal Component 1 vs. Principal Component 2)*
 
 Finally, we examined the loadings for each principal component. These help us to interpret the meaning of each principal component. 
 
 ![Initial Loadings Plot](Images/initialloadings.png)
+
 *Figure 14: Initial PCA loadings for PC1 and PC2*
 
 These loadings allow us to physically interpret the PCA data. The first principal component has almost all the weight of its loading vector in the maximum centerline length. In other words, maximum centerline length can almost completely characterize the features of the data and is one of the most important features in the dataset, and it is weakly correlated with the maximum altitude and weakly negatively correlated with the minimum altitude. This means that if the maximum centerline length is large, the minimum altitude is likely to be (slightly) smaller and the maximum altitude is likely to be (slightly) larger when compared with other Alaskan glaciers. 
@@ -135,6 +149,7 @@ We noted above the three glaciers with outlier values in mean centerline length 
 When we did this, we found that PC1 and PC2 still explained nearly all of the variance in the dataset, but PC1 explained significantly less than it did in our initial PCA pass, and PC2 accounted for more of the variance, see **Table 2** and **Figure 15**. We certianly need the first two principal components to explain most of the variance, in this case. 
 
 ![Scree Plot with Outliers Removed](Images/outliersremovedscree.png)
+
 *Figure 14: Scree plot for PCA with 3 area/centerline outliers removed*
 
 | Principal Component | Explained Variance | Explained Variance (%) |
@@ -153,11 +168,13 @@ When we did this, we found that PC1 and PC2 still explained nearly all of the va
 We constructed the same PCA plot of PC1 and PC2 as before, see **Figure 16**. 
 
 ![PCA Plot Without Outliers](Images/outliersremovedpca.png)
+
 *Figure 14: PC1 vs. PC2 for data with 3 outliers removed*
 
 As before, we examined and interpreted the loadings. 
 
 ![Loadings Plot Without Outliers](Images/outliersremovedloadings.png)
+
 *Figure 14: Loadings for PC1 and PC2 on data with 3 outliers removed*
 
 These loadings plots still indicate that maximum centerline length is still highly important when characterizing the data. The first princpal component indicates that glaciers with a high (or low) maximum centerline length generally have a high (or low) average altitude, respectively. There is a small association with aspect degree and terminal longitude. The second principal component indicates that there is a subset of data where maximum centerline length is large but associated in the opposite manner, when compared with PC1, with altitude. That is, there are some glaciers that have large centerline length associated with low altitude. Aspect degree and terminal longitude are weakly associated with this component. 
