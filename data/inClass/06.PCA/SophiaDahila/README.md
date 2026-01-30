@@ -1,8 +1,8 @@
-## PCA Feature Selection: Alaska Glaciers (Assignment 06)
+# PCA Feature Selection: Alaska Glaciers (Assignment 06)
 
 ### Sophia Robillard and Dahlia Gietka
 
-# Step 1. Uploaded glacial data (csv) from course Google Drive into SophiaDahlia folder in VSCode
+## Step 1. Uploaded glacial data (csv) from course Google Drive into SophiaDahlia folder in VSCode
 
 ## Step 2. Imported dependencies and read the data using pandas
 
