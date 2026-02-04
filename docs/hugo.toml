@@ -20,3 +20,4 @@ theme = "no-style-please"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+

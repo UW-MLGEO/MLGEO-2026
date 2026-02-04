@@ -1,4 +1,3 @@
-
 # Multimodal Data Reveal Climatic Connections to Stehekin, WA Debris Flows in December 2025
 In December 2025, atmospheric rivers brought significant rainfall to the North Cascades. This coincided with massive debris flows in the nearby town of Stehekin, WA, which was affected by forest fires in recent years. Without forest root systems to hold the soil, this region was sensitive to debris flows given sufficient soil moisture levels. While exact soil moisture can be challenging to measure, total precipitation and river gauge data can present a cohesive picture of rainfall and soil drainage, the two factors controlling soil moisture.
 

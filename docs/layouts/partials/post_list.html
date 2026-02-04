@@ -1,7 +1,14 @@
-{{- $posts := "" -}}
+{{- $posts := slice -}}
 
 {{- if .section -}}
-    {{- $posts = ((where site.RegularPages "Section" .section).ByDate.Reverse) -}}
+    {{- /* Get the section */ -}}
+    {{- $sec := site.GetPage .section -}}
+    {{- if $sec -}}
+        {{- /* Only show direct children: regular pages at this level + subsections (_index pages) */ -}}
+        {{- $directPages := $sec.RegularPages -}}
+        {{- $sectionPages := $sec.Sections -}}
+        {{- $posts = ($directPages | append $sectionPages).ByDate.Reverse -}}
+    {{- end -}}
 {{- else -}}
     {{- if (eq .context.Kind "taxonomy") -}}
         {{- $posts = .context.Pages.ByDate.Reverse -}}
