@@ -1,5 +1,5 @@
 ---
-title: "06 | PCA, APPLIED"
+title: "06 | PCA, applied"
 date: 2026-01-28
 ---
 

@@ -1,3 +1,7 @@
+---
+title: "Submarine_Volcanoes"
+---
+
 # Multimodal Data Reveal Climatic Connections to Stehekin, WA Debris Flows in December 2025
 In December 2025, atmospheric rivers brought significant rainfall to the North Cascades. This coincided with massive debris flows in the nearby town of Stehekin, WA, which was affected by forest fires in recent years. Without forest root systems to hold the soil, this region was sensitive to debris flows given sufficient soil moisture levels. While exact soil moisture can be challenging to measure, total precipitation and river gauge data can present a cohesive picture of rainfall and soil drainage, the two factors controlling soil moisture.
 
@@ -26,13 +30,13 @@ Plotting several days of data around the precipitation and stream gauge maxima f
 We use data from USGS for stream gauge data, NOAA for precipitation data, and IRIS for seismic data from the UW PNSN network. We use data from December 2025 in the Stehekin, WA region. All data is freely available online from these APIs, linked below.
 
 ### NOAA API:
-https://www.ncei.noaa.gov/cdo-web/api/v2/data
+[Link](https://www.ncei.noaa.gov/cdo-web/api/v2/data)
 
 ### USGS API:
-https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items
+[Link](https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items)
 
 ### IRIS API:
-https://ds.iris.edu/mda/UW/DREAM/?#UW_DREAM_2025-05-01_2599-12-31
+[Link](https://ds.iris.edu/mda/UW/DREAM/?#UW_DREAM_2025-05-01_2599-12-31)
 
 ## Team
 Submarine Volcanologists

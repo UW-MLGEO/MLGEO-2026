@@ -1,3 +1,7 @@
+---
+title: "volcanoes"
+---
+
 # Washington Flood Data Analysis
 
 ## Overview
@@ -14,7 +18,7 @@ These notebooks retrieve and analyze publicly available data from USGS and NOAA 
 
 #### 1. Stage vs. Discharge (Normalized)
 
-![Stage vs Discharge](png/StagevsDischarge.png)
+![Stage vs Discharge](../png/StagevsDischarge.png)
 
 **What it shows:** This graph displays both water level (stage, in orange) and flow rate (discharge, in blue) from the Stehekin River gauge during December 10-16, 2025. Both variables are normalized to a 0-1 scale to allow direct comparison despite having different units (feet vs. cubic feet per second).
 
@@ -29,7 +33,7 @@ These notebooks retrieve and analyze publicly available data from USGS and NOAA 
 #### 2. Daily Precipitation (December 2025)
 
 
-![Daily Precipitation](png/dailyPrecip.png)
+![Daily Precipitation](../png/dailyPrecip.png)
 
 **What it shows:** Daily precipitation totals (in inches) recorded at the Stehekin 4 NW weather station throughout December 2025.
 
@@ -43,7 +47,7 @@ These notebooks retrieve and analyze publicly available data from USGS and NOAA 
 
 #### 3. Discharge Comparison (Raw Values)
 
-![Discharge Comparison](png/dischargeComparison.png)
+![Discharge Comparison](../png/dischargeComparison.png)
 
 **What it shows:** Side-by-side comparison of stream discharge (in cubic feet per second) between two flood events:
 - **Left panel:** November 12-19, 2021 (previous major flood event)
@@ -67,7 +71,7 @@ These notebooks retrieve and analyze publicly available data from USGS and NOAA 
 
 #### 4. Normalized Discharge Comparison
 
-![Normalized Discharge Comparison](png/normalizedDischargeComparison.png)
+![Normalized Discharge Comparison](../png/normalizedDischargeComparison.png)
 
 **What it shows:** The same two flood events with discharge normalized to a 0-1 scale (where 1.0 = peak discharge for each event). This removes magnitude differences and allows comparison of the **shape** of the hydrologic response.
 
@@ -121,10 +125,10 @@ Period 2 (2025-12-10 to 2025-12-16): 672 discharge records
 
 | Source | API Endpoint | Data Type |
 |--------|--------------|-----------|
-| USGS Water Services | `waterservices.usgs.gov/nwis/iv/` | Instantaneous discharge (parameter 00060) and stage (parameter 00065) |
-| USGS Site Service | `waterservices.usgs.gov/nwis/site/` | Station metadata |
-| NOAA NCEI | `ncei.noaa.gov/access/services/data/v1` | Daily precipitation summaries |
-| NOAA CDO | `ncdc.noaa.gov/cdo-web/api/v2/data` | GHCND daily climate data |
+| USGS Water Services | [Link](https://waterservices.usgs.gov/nwis/iv/) | Instantaneous discharge (parameter 00060) and stage (parameter 00065) |
+| USGS Site Service | [Link](https://waterservices.usgs.gov/nwis/site/) | Station metadata |
+| NOAA NCEI | [Link](https://ncei.noaa.gov/access/services/data/v1) | Daily precipitation summaries |
+| NOAA CDO | [Link](https://ncdc.noaa.gov/cdo-web/api/v2/data) | GHCND daily climate data |
 
 ---
 

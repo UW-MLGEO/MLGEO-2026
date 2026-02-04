@@ -1,0 +1,14 @@
+{{- /* Breadcrumb navigation */ -}}
+{{- $ancestors := .Ancestors.Reverse -}}
+{{- if gt (len $ancestors) 0 -}}
+<nav class="breadcrumb">
+    {{- range $i, $ancestor := $ancestors -}}
+        {{- if $i }} &gt; {{ end -}}
+        {{- if $ancestor.IsHome -}}
+            <a href="{{ $ancestor.Permalink | relURL }}">ML for the Geosciences</a>
+        {{- else -}}
+            <a href="{{ $ancestor.Permalink | relURL }}">{{ $ancestor.Title }}</a>
+        {{- end -}}
+    {{- end -}}
+</nav>
+{{- end -}}

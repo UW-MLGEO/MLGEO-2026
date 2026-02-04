@@ -17,4 +17,7 @@ Working in your teams, I would like you to assemble ```.ipynb``` and ```.md``` f
 
 You should complete these tasks by **1:30 PM on Friday, January 16**.
 
+## Submissions
+
+
 {{< footnotes >}}
