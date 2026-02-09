@@ -13,16 +13,16 @@ In December 2025, heavy rain, falling over recently burned land, caused debris f
 All precipitation data was taken from NOAA, and precipitation was measured in millimeters. Precipitation was measured at the Stehekin 4 Northwest Station, station number GHCND:USC00458059. Monroe precipitation data was taken from the Monroe, WA station, station number GHCND:USC00455525. Average precipitation over December 2024 and December 2024 was calculated from the data for each location. We see that average daily precipitation in Decemeber 2025 was more than double the average daily precipitation in December 2024. Additionally, we see the highest spikes in precipitation in 2025 from December 11th - 13th. According to a KING5 News Article and Northwest Public Broadcasting, articles linked below, this was when the major debris flows occurred in Stehekin, WA. 
 
 ![Monroe precipitation plot from 2024](Figures/MonroePrecip2024.png)
-*Figure 3: Daily precipitation from Monroe, WA Dec 2024, NOAA
+*Figure 3: Daily precipitation from Monroe, WA Dec 2024, NOAA*
 
 ![Monroe precipitation plot from 2025](Figures/MonroePrecip2025.png)
-*Figure 4: Daily precipitation from Monroe, WA Dec 2025, NOAA
+*Figure 4: Daily precipitation from Monroe, WA Dec 2025, NOAA*
 
 ![Stehekin discharge Dec 2025](Figures/StehekinDecDischarge.png)
-*Figure 5: Daily stream gauge discharge Stehekin WA, Dec 2025, USGS
+*Figure 5: Daily stream gauge discharge Stehekin WA, Dec 2025, USGS*
 
 ![Stehekin disharge 2025](Figures/StehekinYearlyDischarge.png)
-*Figure 6: Daily stream gauge disharge Stehekin WA, 2025, USGS
+*Figure 6: Daily stream gauge disharge Stehekin WA, 2025, USGS*
 
 Stream gauge data was taken from USGS, and the value measured was river discharge in cubic feet per second. Stream gauge data was taken from the Stehekin River, site number 12451000. As above, we see that the largest spikes in discharge occur during the same period in which major debris flows were experienced. It is also clear that discharge in December 2025 was significantly larger in volume when compared to the rest of 2025. 
  
@@ -37,14 +37,19 @@ Stream gauge data was taken from USGS, and the value measured was river discharg
 8. From USGS Stehekin WA stream gauge discharge data, created plots of 1) discharge vs time (days of December 2025) (Figure 5) and 2) discharge vs time (months of 2025) (Figure 6)
 
 # Data Access
-## Weather (NOAA, Weather Service)
+## Weather (NOAA)
+Note that this data requires a token from NOAA website
 ### Stehekin, WA: 
+#### 2025:
 - https://www.ncei.noaa.gov/cdo-web/api/v2/data?datasetid=GHCND&stationid=GHCND:USC00458059&&units=metric&datatype=PRCP&limit=1000&startdate=2025-12-01&enddate=2025-12-31
+#### 2024:
 - https://www.ncei.noaa.gov/cdo-web/api/v2/data?datasetid=GHCND&stationid=GHCND:USC00458059&&units=metric&datatype=PRCP&limit=1000&startdate=2024-12-01&enddate=2024-12-31
 
 
 ### Monroe, WA:
+#### 2025:
 - https://www.ncei.noaa.gov/cdo-web/api/v2/data?datasetid=GHCND&stationid=GHCND:USC00455525&&units=metric&datatype=PRCP&limit=1000&startdate=2025-12-01&enddate=2025-12-31
+#### 2024:
 - https://www.ncei.noaa.gov/cdo-web/api/v2/data?datasetid=GHCND&stationid=GHCND:USC00455525&&units=metric&datatype=PRCP&limit=1000&startdate=2024-12-01&enddate=2024-12-31
 
 ## Stream Gauge (USGS)
