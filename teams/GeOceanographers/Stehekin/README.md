@@ -2,7 +2,7 @@
 
 ## Team Members
 - Mary Orrand
-- [Add other team members here]
+- Ellie Barkyoumb
 
 ## Project Overview
 Analysis of the December 2025 atmospheric river event and resulting debris flows in Stehekin, WA. This project uses various APIs to characterize the climatic conditions and geological impacts of this extreme weather event.
@@ -19,16 +19,16 @@ Analysis of the December 2025 atmospheric river event and resulting debris flows
 ## Data Sources
 - **USDA SNOTEL:** Lyman Lake station (Site ID: 606) for precipitation data
 - **National Weather Service API:** Weather observations for Stehekin area (Station: STRW1)
-- [Add other data sources as you use them]
+- 
 
 ## Methodology
 1. Identified relevant weather stations near Stehekin
 2. Used APIs to retrieve precipitation and climate data for December 2025
 3. Analyzed data to characterize the atmospheric river event
-4. [Add additional steps as your analysis progresses]
+4. 
 
 ## Key Findings
-[Add your findings here as you complete the analysis]
+- In December of 2025, there is a peak of streamflow, which coincides with flooding and landslides in the surronding area 
 
 ## Dependencies
 - Python 3.x
@@ -39,9 +39,9 @@ Analysis of the December 2025 atmospheric river event and resulting debris flows
 ## How to Run
 1. Open `API_class.ipynb` in Jupyter or VS Code
 2. Run cells sequentially to retrieve and analyze data
-3. [Add specific instructions if needed]
+  
 
 ## References
 - USDA Natural Resources Conservation Service - SNOTEL Data
 - National Weather Service API Documentation
-- [Add other references]
+
