@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "breadcrumb.html" .}}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{- /* Only show child pages of this section, not the parent section */ -}}
+{{- if .Pages -}}
+    <ul>
+    {{- range .Pages.ByDate.Reverse -}}
+        <li>
+            <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
+        </li>
+    {{- end -}}
+    </ul>
+{{- end -}}
+
+{{ end }}

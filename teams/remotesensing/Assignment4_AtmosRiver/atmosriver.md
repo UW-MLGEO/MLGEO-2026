@@ -1,4 +1,4 @@
-# Analyzing Precipitation at the Stehekin 4 NW Washington in December 2025 
+# Analyzing Precipitation at the Stehekin 4 NW Washington in December 2025
 
 The goal of this was to look at precipitation and river discharge to relate the datasets in order to understand and analyze the extreme weather event that occurred in December 2025. 
 
