@@ -17,4 +17,4 @@ date: 2026-02-13
 
 ## Deadline
 
-This assignment is due before class on <u>**Friday, February 20**</u>.
+This assignment is due before class on <u>**Monday, February 23**</u>.
