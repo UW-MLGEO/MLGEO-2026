@@ -1,5 +1,5 @@
 ---
-title: "The curse of dimensionality"
+title: "08 | The curse of dimensionality"
 date: 2026-02-13
 ---
 
