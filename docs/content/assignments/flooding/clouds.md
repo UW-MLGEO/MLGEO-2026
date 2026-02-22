@@ -40,7 +40,7 @@ total
 of about 70 mm. This peak followed multiple days of heavy rainfall, suggesting the soil was already 
 saturated.
 
-![Daily Precipitation - December 2025](Outputs/dec2025_precipitation.png)
+![Daily Precipitation - December 2025](../Outputs/dec2025_precipitation.png)
 **Figure 1:** USGS gage height (stage) for the Stehekin River showing long-term water level variability.
 
 USGS stream gauge data from the Stehekin River indicate a significant hydrologic response to these storm 
@@ -49,11 +49,11 @@ events. During mid-December, river stage and discharge quickly rose, with peak d
 20,000 
 cfs.
 
-![Gage Height - December 2025](Outputs/dec2025_gage_height.png)
+![Gage Height - December 2025](../Outputs/dec2025_gage_height.png)
 **Figure 2:** Daily precipitation at NOAA GHCND station USC00458059 (Stehekin) for December 2025.
 
 
-![Streamflow - December 2025](Outputs/dec2025_streamflow.png)
+![Streamflow - December 2025](../Outputs/dec2025_streamflow.png)
 **Figure 3:** USGS streamflow for the Stehekin River showing discharge response during December 2025 
 storms.
 
@@ -85,17 +85,17 @@ and mid-December. The most significant storm happened on **December 17**, record
 of about 70 mm. This peak followed multiple days of heavy rainfall, suggesting the soil was already 
 saturated.
 
-![Daily Precipitation - December 2025](Outputs/dec2025_precipitation.png)
+![Daily Precipitation - December 2025](../Outputs/dec2025_precipitation.png)
 **Figure 1:** 
 
 USGS stream gauge data from the Stehekin River indicate a significant hydrologic response to these storm 
 events. During mid-December, river stage and discharge quickly rose, with peak discharge surpassing 20,000 
 cfs.
 
-![Gage Height - December 2025](Outputs/dec2025_gage_height.png)
+![Gage Height - December 2025](../Outputs/dec2025_gage_height.png)
 **Figure 2:** 
 
-![Streamflow - December 2025](Outputs/dec2025_streamflow.png)
+![Streamflow - December 2025](../Outputs/dec2025_streamflow.png)
 **Figure 3:**
 
 The heavy rainfall and rapid river rise in December 2025 indicate a significant storm event. The recent burn 

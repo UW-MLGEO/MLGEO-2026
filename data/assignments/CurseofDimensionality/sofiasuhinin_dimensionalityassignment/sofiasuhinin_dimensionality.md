@@ -1,0 +1,6 @@
+## ESS 469: Curse of Dimensionality Assignment 
+#### Sofia Suhinin
+![Figure 1: Random points were sampled in dimensions ranging from 1 to 200. For each dimension the distances between pairs was calcualted and then the percentage of distances lying within one s.d of the sample mean was calculated. The figure shows that as dimensionality increases, the percentage increases and stabilizes near 68%, indicating that distances become concentrated around their mean.](suhinin_dimensionalityconcentration.png)
+*Figure 1: Random points were sampled in dimensions ranging from 1 to 200. For each dimension, the distances between pairs were calculated and then the percentage of distances lying within one standard deviation of the sample mean was calculated. The figure shows that as dimensionality increases, the percentage increases and stabilizes near 68%, indicating that distances become concentrated around their mean.*
+
+This illustrates the curse of dimensionality, as in a higher dimensional space the distinction/difference between near and far points decreases which reduces the effectiveness of distance based calculations and algorithms
