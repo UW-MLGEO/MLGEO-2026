@@ -1,0 +1,4 @@
+# Curse of Dimensionality
+## Justin Lee
+![Figure 1: This figure simulates 1000 random points across varying dimensions and when there are fewer dimensions (2 or 20), there is a wide variety of distances between the points. As the dimension count increases, however, the variety disappears and classifying the data based on distances between points becomes difficult as they are all concentrated around the same distance.](Justin_CoD_Figure.png)
+### This figure simulates 1000 random points across varying dimensions and when there are fewer dimensions (2 or 20), there is a wide variety of distances between the points. As the dimension count increases, however, the variety disappears and classifying the data based on distances between points becomes difficult as they are all concentrated around the same distance.
