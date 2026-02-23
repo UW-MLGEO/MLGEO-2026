@@ -1,5 +1,5 @@
 ---
-title: "07 | Second team presentation"
+title: "07 | Third team presentation"
 date: 2026-02-09
 mathjax: true
 ---
