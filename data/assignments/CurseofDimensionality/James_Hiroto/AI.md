@@ -1,0 +1,1 @@
+I used GPT-4.1 to generate arrays of numbers on a normal distribution. 
