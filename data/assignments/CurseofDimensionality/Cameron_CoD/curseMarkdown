@@ -1,0 +1,51 @@
+# Curse of Dimenstionality - Cameron Boyd
+
+The third figure is the one that shows the curse of dimensionality!! The other two are because I got caught up in story-telling.
+
+## Set-Up
+I've been haunted by the curse of dimensionality a couple of times during my own research. I thought I would give a quick example of how it shows up when I work with temperature data.
+
+My goal in the glaciology research I work on is to capture how current observations of glacier behaviors land outside what would be expected from an evironment w/out anthropogenic forcing. To do this, I generate glaciers based off of climate records.
+
+When looking at temperature records, I need a way to detrend them. One way to do this would be through fitting a polynomial to the data. I explored some possible outcomes of this method.
+
+## Synthetic Temperature Trend
+I set up a quick temperature trend, including the "little ice age" cooling between 1300 - 1850 and an aggressive ~2 degree Celsius warming from 1850 - 2000.
+
+![Synthetic Temperature Trend](images/tempTrend.png)
+
+## Polynomial Fits
+I used zero through four degree polynomial fits to try and capture the "natural" behavior of the temperature.
+
+![Poly Fits](images/polyfits.png)
+
+## Loss Function / Temperature Anomaly
+I then generated a loss function by simply subtracting the temperature predicted from each fit from the synthetic temperature record.
+
+![Loss Function](images/loss.png)
+
+The four degree polynomial might have less loss overall, but it picks up on some weird, non-existent anomalies in the section of the temperature record we decided was "flat," between 0-1300. We also know that modern temperature trends should be wayyy outside the normal behaviour of the climate, and the fourth degree polynomial doesn't really show that. 
+
+## Cost
+
+I took the sum of the losses on the "flat" climate, a.k.a. the temperature records before the Little Ice Age, a.k.a. the temperature from year 0 - 1300. Typically, in my modelling, I'm trying to capture the baseline before any big climate trends, so characterizing 0 - 1300 is a big goal.It came out as:
+
+| DoF   |      Cost      |
+|:------|:--------------:|
+| Zero  | [-60.46977759] |
+| One   | [12.96985778]  |
+| Two   | [58.12052717]  |
+| Three | [29.09937168]  |
+| Four  | [-15.1704029]  |
+
+Surprisingly, the linear fit has the least cost. The quadratic fit does pretty well, but we saw those weird wiggles in the loss function that suggest it's really just fitting a bunch of noise.
+
+## Conclusion
+
+Minimizing cost is not always the goal. In this exercise, a fourth degree polynomial fit of temperature trends does a pretty good job at minimizing cost, but it picks up some non-existant trends, and makes industrial-era warming look less extreme than we know it to be. Turns out, a linear fit may get the job done even better. 
+
+## An Aside on My Own Research
+
+In case you're curious, fitting temperature records with a polynomial is never the real solution. We typically use Butterworth filters, but polynomials have a much clearer degrees of freedom imo. 
+
+
