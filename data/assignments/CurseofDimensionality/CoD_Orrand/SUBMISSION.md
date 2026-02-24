@@ -2,7 +2,7 @@
 
 ![Distance concentration figure](./figures/curse_of_dimensionality.png)
 
-## What we did (simple explanation)
+## What we did
 
 - We simulated random points in different numbers of dimensions (for example, 2, 10, 50, 100).
 - For each dimension, we measured distances between many random pairs of points.
@@ -11,7 +11,7 @@
   - (A) Histograms of the normalized distances for a few dimensions.
   - (B) A small plot showing how the coefficient of variation (CV = std/mean) changes with dimension.
 
-## Main takeaway (one sentence)
+## Main takeaway
 
 As the number of dimensions increases, pairwise distances become more similar (the histograms get narrower and the CV decreases), so Euclidean distance becomes less useful for distinguishing points in high dimensions.
 
