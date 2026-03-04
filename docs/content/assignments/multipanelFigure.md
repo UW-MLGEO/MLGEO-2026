@@ -1,5 +1,5 @@
 ---
-title: "09 | Embeddings"
+title: "* | The curse of dimensionality"
 date: 2026-03-02
 ---
 
