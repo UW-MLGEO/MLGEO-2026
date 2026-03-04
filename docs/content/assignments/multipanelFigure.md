@@ -1,6 +1,6 @@
 ---
 title: "* | Final project: Multipanel Figure"
-date: 2026-03-13
+date: 2026-03-01
 ---
 
 *Note that this assignment is for those students who are enrolled in 469.*
