@@ -1,0 +1,5 @@
+## Written Response to 23. embeddings assignment
+
+1. I predicted that description X was most similar to desciription A, description A included quantitative information about the earthquake and was most specific about the locations it affected. Description P is most similar to description Y because the statement is describing the same mechanical process with the same general results.
+2. Statement X was less similar to descriptions A, B, and C compared to the values generated for A, B, and C when compared to one another. A, B, and C have very similar sentence structure uses more generalized language than Statement X, both of which may contribute to this discrepancy. 
+3. The embedding does cluster with statement P (avalanche statement), even though description Y does not mention avalanches or the physical processes involved in landslides, instead it includes contextual information that might be relevant to avalanche concerns, this means that the model has learned how to make associations between two different concepts that it can then sew together to generate a result that lands in the right cluster.
