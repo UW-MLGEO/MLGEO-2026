@@ -1,6 +1,6 @@
 ---
 title: "* | Final project: Multipanel Figure"
-date: 2026-03-01
+date: 2026-03-06
 ---
 
 *Note that this assignment is for those students who are enrolled in 469.*
@@ -18,11 +18,9 @@ You will need to assemble a single multi-panel figure that explores one or more 
 For this assignment:
 
 - "Multi-panel" refers to a figure with more than two subfigures.
-- You will need to upload to Github (in the ```/assignments/final/469/``` directory) \ul{a single .PDF} with your figure on one page and caption on another. The top-left of each panel should have a letter in a box.
+- You will need to upload to Github (in the ```/assignments/final/469/``` directory) <u>a single .PDF</u> with your figure on one page and caption on another. The top-left of each panel should have a letter in a box.
 
 ## Rubric
-
-Each element is scored from 1 (poor) to 5 (excellent).
 
 | Criterion | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
