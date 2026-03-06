@@ -43,6 +43,12 @@ _What considerations about data should research take into account?_
     - Keep a local and online back up 
     - Keep a separate folder for data, only (data) copy from it never write back to it 
 
+### Volcano group - Matt, Hiroto, Jose
+1. size - ensuring dataset is big enough for ml learning application, like how FlowDAT only had 30 values necessary for PDC model prediction.
+2. formatting - data must be easy to sort through both with code and output from data must be interpretable to human reader.
+3. ease of access - If data cannot be accessed, no ML model can be trained.
+4. uniformity of presented data - objects in dataset must share same parameters/variables or ML comparison for training becomes difficult
+5. units/context - Units and context of data so that data can be understood by human audience and thus acted on in some manner.
 
 
 

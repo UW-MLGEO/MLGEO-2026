@@ -46,3 +46,9 @@ _What guidelines should individuals follow when working in a team on a ML projec
     - Set clear goals and timelines for individuals and group
     - Make sure task designation is clear so that two people do not do the same thing - for example, two people writing the same block of code and not realising
     - Meet on Zoom!
+
+### Volcano Group - Matt, Hiroto, Jose
+1. ease of communication - being able to communicate/organize on the fly through communication applications (ie whatsapp) has proved crucial
+2. delegation of capabilities - playing off the strength of various team members and their past experience is vital for project success
+3. consistent meetings - meetings involving all members in order to evaluate progress and select next steps
+4. data compartamentalization - seperation of various stages of our model into different data storage applications has helped us deal with the large file sizes and the various inputs and outputs our model produces
