@@ -54,7 +54,20 @@ _What considerations about data should research take into account?_
     - Is the size of the data realistic for your project, i.e., do you need to size down or find a way to store data
     - DO NOT store on git
     - Keep a local and online back up 
-    - Keep a separate folder for data, only (data) copy from it never write back to it 
+    - Keep a separate folder for data, only (data) copy from it never write back to it
+ 
+## Christina and David
+
+- How clean is the data?
+  - How much time and effort can you allocate to cleaning and processing the data?
+  - How much data is there and can you're hardware and interface support it?
+  - How many dimensions are in the data? (Abdi and Williams, 2010)
+    - Would dimensional reduction make it easier to visualize and understand?
+      - If you have data that's only in 2 dimensions, or you only need to visualize the change of one known dimension relative to a single other dimension is PCA really necessary?
+      - How confident are you in your PCA if you chose to use it?
+        - You can use bootstrap re-sampling to assess the confidence limits of your PCA (Babamoradi et al. 2013)
+- Verify that you're data is already parsed and ready for a program to read easily (some instruments don't generate data in a usable format).
+  - Example: Many PI instruments from OOI are unprocessed and generate data that python or a parser cannot decode without a parser for the specific instrument which might be proprietary)
 
 
 
