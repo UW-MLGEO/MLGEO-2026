@@ -68,6 +68,14 @@ _What considerations about data should research take into account?_
         - You can use bootstrap re-sampling to assess the confidence limits of your PCA (Babamoradi et al. 2013)
 - Verify that you're data is already parsed and ready for a program to read easily (some instruments don't generate data in a usable format).
   - Example: Many PI instruments from OOI are unprocessed and generate data that python or a parser cannot decode without a parser for the specific instrument which might be proprietary)
+ 
+### Volcano group - Matt, Hiroto, Jose
+1. size - ensuring dataset is big enough for ml learning application, like how FlowDAT only had 30 values necessary for PDC model prediction.
+2. formatting - data must be easy to sort through both with code and output from data must be interpretable to human reader.
+3. ease of access - If data cannot be accessed, no ML model can be trained.
+4. uniformity of presented data - objects in dataset must share same parameters/variables or ML comparison for training becomes difficult
+5. units/context - Units and context of data so that data can be understood by human audience and thus acted on in some manner.
+
 
 
 
