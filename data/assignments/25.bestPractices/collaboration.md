@@ -58,3 +58,21 @@ _What guidelines should individuals follow when working in a team on a ML projec
     - Make sure task designation is clear so that two people do not do the same thing - for example, two people writing the same block of code and not realising
     - Meet on Zoom!
 >>>>>>> 14a8371dc9fbea76c48eaa5f1003c49ac7ff160f
+>>>>>>> 
+## Christina and David
+
+- Commit to git regularly and submit pull requests that should be approved by others.
+- Schedule meetings and discuss what you need to accomplish regularly. (Almahmoud et al. 2021)
+  - Establish what criteria will be used to assess the performance of the model and the group.
+  - What kind of role will each team member fill. 
+
+- Establish rules for your git repository.
+  - How should pull requests be completed?
+    - Someone other than the committer needs to review and accept the pull request.
+  - How much detail should be in a commit or pull request message?
+    - The message should explain where the commit is going, what it's doing, and how it might interact or change the existing program.
+  - What criteria should be used for reviewing code being added to the git?
+    - comments, markdown files, etc.
+
+- Github Best Practices https://www.science.org/doi/10.1126/sciadv.aea3684
+  - Implement Git's Large File Storage so that large files or many files exceeding git's default storage capacity can be added to a repository.
