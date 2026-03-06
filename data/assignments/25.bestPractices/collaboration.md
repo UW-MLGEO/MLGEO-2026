@@ -76,3 +76,9 @@ _What guidelines should individuals follow when working in a team on a ML projec
 
 - Github Best Practices https://www.science.org/doi/10.1126/sciadv.aea3684
   - Implement Git's Large File Storage so that large files or many files exceeding git's default storage capacity can be added to a repository.
+ 
+### Volcano Group - Matt, Hiroto, Jose
+1. ease of communication - being able to communicate/organize on the fly through communication applications (ie whatsapp) has proved crucial
+2. delegation of capabilities - playing off the strength of various team members and their past experience is vital for project success
+3. consistent meetings - meetings involving all members in order to evaluate progress and select next steps
+4. data compartamentalization - seperation of various stages of our model into different data storage applications has helped us deal with the large file sizes and the various inputs and outputs our model produces
