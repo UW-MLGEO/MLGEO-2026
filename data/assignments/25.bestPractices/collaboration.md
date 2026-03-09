@@ -89,3 +89,9 @@ _What guidelines should individuals follow when working in a team on a ML projec
 
 - Communication: Talk about everyone's skills and strengths as soon as possible. This allows you to be on the same page and understand and distribute in a way that will be equitable and efficient.
     - Ex: In Lucy's group, some were quite experienced in coding while others were new to Python. The task of writing a particular script might take 30 minutes for an expert and 6 hours for another group member. While everyone should develop skills through the project, it's okay to divide up the work in ways that make sense for each member's skillset.
+
+##@ Volcano Group - Matt, Hiroto, Jose
+1. ease of communication - being able to communicate/organize on the fly through communication applications (ie whatsapp) has proved crucial
+2. delegation of capabilities - playing off the strength of various team members and their past experience is vital for project success
+3. consistent meetings - meetings involving all members in order to evaluate progress and select next steps
+4. data compartamentalization - seperation of various stages of our model into different data storage applications has helped us deal with the large file sizes and the various inputs and outputs our model produces
