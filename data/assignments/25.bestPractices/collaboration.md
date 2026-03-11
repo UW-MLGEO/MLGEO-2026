@@ -95,3 +95,9 @@ _What guidelines should individuals follow when working in a team on a ML projec
 2. delegation of capabilities - playing off the strength of various team members and their past experience is vital for project success
 3. consistent meetings - meetings involving all members in order to evaluate progress and select next steps
 4. data compartamentalization - seperation of various stages of our model into different data storage applications has helped us deal with the large file sizes and the various inputs and outputs our model produces
+
+## Justin 
+1. Try to work through branches instead of commiting everything to the main branch 
+2. Don't merge your own code. Any pull requests should be reviewed by other group members so that the quality is up to everyone's standard 
+3. Don't use file paths that are specific to you. Instead, write the file paths in ways that can be run by anyone without having to edit anything
+4. Add comments to explain what and why each code is doing in order to save time in the future when debugging

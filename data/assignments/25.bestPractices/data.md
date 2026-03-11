@@ -82,9 +82,10 @@ After sourcing data, and characterization, transforming the data into a clean fr
 2. Another big thing often overlooked is documenting all changes and steps taken during the transfomation process. The ability to revert back or change a small part of the dataset becomes much easier with documentation and allow others to quickly understand your process and contribute. 
 3. This article from UW-Madison outlines good steps to take for data documentation: [5 Ways to Document Data](https://data.wisc.edu/data-literacy/document/)
 
-
-
-
+## Justin 
+1. Before putting all your trust into raw data, plot it out first or make some sort of visualization to find any possible outliers or distributions 
+2. Adjust the dimensionality to make the process more efficient. Techniques such as PCA can help reduce the computational load of these data sets but make sure you are confident when reducing dimensions 
+3. Don't put too large data files into the standard repository. Make sure they are saved in separate read only areas
 
 
 
