@@ -22,3 +22,14 @@ An Example: For Image Analysis, we learned in our project that neural networks a
 
 - Computational Cost + Timeline: Consider your dataset size, project timeline, and computational resources before committing to a model and training. 
     Ex: Michael's group trained two regression models, a random forest on features extracted from time series data and a convolutional neural network trained on raw, large time series data. The first model had a small dataset and architecture, which made training quick. The second model had to train overnight! On the scale of a quarter-long project, this was okay - but taking a week to train a model would not be appropriate for the scope of the project.
+
+## Laura
+* Use existing ML best practices and techniques. Techniques like transfer learning can decrease computational cost of a model and decrease complexity in implementation. Using existing models that have been optimized by machine learning experts can make implementation of a model both more user friendly and more efficient.
+
+* Talk to an expert about what models may best suit your problem and how best to implement them!
+
+    For example, in our group's implementation, I discussed the problem with a few machine learning experts in the Applied Math department. They had suggestions for implementation and some well-documented example code for neural networks. They also had suggestions for what packages to use. Getting insight from someone who knows machine learning well can help guide your approach, and they may have code or learning materials that are quick to implement. 
+  
+* Conduct a literature search. Learn what is standard practice in your field for the problem you are interested in. There may be standard techniques that you can either implement or build off of or areas that have yet to be explored!
+
+    For example, the Paleorocks group conducted a literature search that gave us ideas for data augmentation techniques and image resolution resizing. We also learned about models that are commonly implemented for transfer learning in fossil image classification and were able to use these same models in our own implementation. 
