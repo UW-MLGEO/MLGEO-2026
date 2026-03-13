@@ -95,3 +95,12 @@ After sourcing data, and characterization, transforming the data into a clean fr
 
 
 >>>>>>> 14a8371dc9fbea76c48eaa5f1003c49ac7ff160f
+
+## Mary Orrand
+*Project: Predicting ocean pCO₂ from satellite remote sensing*
+
+1. **Use well-known, publicly available data sources.** I used buoy measurements from NOAA and satellite sea surface temperature from ERDDAP. Both are free, well-documented, and maintained by government agencies — which meant I could trust the data quality and spend less time hunting for usable files.
+2. **Check that your data actually makes sense before using it.** After pulling satellite SST and matching it to buoy locations, I compared the satellite temperature values to the actual buoy readings. They matched almost perfectly (r = 0.998), which told me my data pipeline was pulling the right data from the right places.
+3. **Have a consistent plan for cleaning messy data.** My buoy files used -999 for missing values, had different date formats, and used different column names depending on the location. I wrote a cleaning script that handled all of these automatically, and I documented what it does so I could come back to it later without guessing.
+4. **Keep raw data separate from processed data.** I set up separate folders for raw downloads, cleaned files, and final training data. I never edited the raw files directly — so if I needed to change how I cleaned the data, I could just re-run the pipeline from scratch.
+5. **Understand the differences between your data sources before combining them.** My satellite data covers a grid of pixels (~4.6 km spacing) while each buoy is a single point. I had to think carefully about how to match them — I ended up pulling all satellite pixels within a 12 km box around each buoy and computing summary statistics. That decision only made sense after I explored both datasets on their own first.

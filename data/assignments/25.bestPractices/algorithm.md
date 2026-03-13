@@ -33,3 +33,11 @@ An Example: For Image Analysis, we learned in our project that neural networks a
 * Conduct a literature search. Learn what is standard practice in your field for the problem you are interested in. There may be standard techniques that you can either implement or build off of or areas that have yet to be explored!
 
     For example, the Paleorocks group conducted a literature search that gave us ideas for data augmentation techniques and image resolution resizing. We also learned about models that are commonly implemented for transfer learning in fossil image classification and were able to use these same models in our own implementation. 
+
+## Mary Orrand
+*Project: Predicting ocean pCO₂ from satellite remote sensing*
+
+1. **Look at what's already been done with your type of data.** Before choosing a model, I looked into how other oceanography projects have used satellite data to predict ocean chemistry. This helped me understand that tabular oceanographic data (like CSV tables of SST and chlorophyll measurements) tends to work well with tree-based models like Random Forest, rather than neural networks which are better suited for image or sequence data.
+2. **Start simple and build up.** I began with Linear Regression as a baseline before trying anything more complex. This made it easy to see whether a more advanced model (Random Forest) was actually worth the added effort, and it was, because the relationships between SST and pCO₂ turned out to be non-linear.
+3. **Let your data exploration inform your model choice.** Early scatter plots showed that the relationship between temperature and pCO₂ looked different at each buoy site in that there was no single straight-line trend. That told me I needed a model flexible enough to handle those site-dependent patterns, which is what led me to Random Forest.
+4. **Think about how your data is grouped before splitting it.** Since my data came from 7 different ocean sites, I made sure each site was proportionally represented in both training and test sets. A random split could have put most of one site's data in training and none in testing, giving misleading results.
