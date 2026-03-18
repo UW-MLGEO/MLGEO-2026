@@ -101,3 +101,12 @@ _What guidelines should individuals follow when working in a team on a ML projec
 2. Don't merge your own code. Any pull requests should be reviewed by other group members so that the quality is up to everyone's standard 
 3. Don't use file paths that are specific to you. Instead, write the file paths in ways that can be run by anyone without having to edit anything
 4. Add comments to explain what and why each code is doing in order to save time in the future when debugging
+
+## Mary Orrand
+*Project: Predicting ocean pCO₂ from satellite remote sensing*
+
+1. **Set up a clear folder structure from the start.** I organized my repository into separate folders for notebooks, data, plots, and documentation. I also numbered the notebook folders by workflow step (00_data_download, 01_exploration, etc.) so anyone looking at the project could follow the order of operations without me explaining it.
+2. **Write a good README and keep it updated.** I wrote a README that explains what the project is, where each file lives, and how to run things in order. This way if someone else (or future me) comes back to the project, they can get up to speed quickly.
+3. **Don't put large data files in git.** My satellite and buoy CSV files were too big for GitHub. Instead, I wrote a guide explaining which notebooks to run to regenerate all the processed data from scratch — so the data doesn't need to live in the repo.
+4. **Use branches and pull requests, even when working solo.** I worked on feature branches instead of committing directly to main. This kept the main branch clean and made it easy to undo things if something went wrong.
+5. **Document your decisions, not just your code.** I kept markdown files explaining why I made certain choices — like why I used a 12 km bounding box for satellite data, or why I required at least 4 observations per day. Comments in code explain *what* is happening, but separate docs explain *why*.
