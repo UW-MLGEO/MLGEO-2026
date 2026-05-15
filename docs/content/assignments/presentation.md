@@ -21,6 +21,8 @@ In this presentation, you should include:
 
 ## Rubric
 
+<div style="overflow-x: auto;">
+
 | Criterion | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
 | **Timing & Execution** | Unprepared delivery; significantly over or under allotted time. | Limited rehearsal evident; significant time management issues. | Some evidence of preparation, but delivery is uneven; slightly over or under time. | Mostly well-rehearsed with minor stumbles; stays on time or very close. | Clearly well-rehearsed; delivery polished; on time. |
@@ -30,6 +32,8 @@ In this presentation, you should include:
 | **Curation & characterization of dataset** | No dataset presented. | Dataset(s) exist but processing and characterization are either non-existent or poorly done. | Datasets are well-organized and any interested party can go from raw data to the processed and characterized dataset used in the workflows. | Datasets are exceptionally curated: everything is detailed, properly attributed, and easy to follow. | As in 4, with outstanding documentation, provenance tracking, and accessibility for outsiders. |
 | **Assessment of AI/ML Performance** | No assessment of algorithm performance. | An assessment of performance exists but either lacks critical analysis or is inappropriate. | An assessment of performance exists, is clearly described, and provides critical insights into what is working and what might be improved. | Multiple assessments of performance—each appropriate, well-detailed, and illuminating—exist. | As in 4, with exceptional rigor, breadth of metrics, and actionable insights. |
 | **Reproducibility of Results** | No publicly available repository. | A repository exists but is missing critical elements (e.g., README.md); lack of organization; code is difficult to follow or fails to run. | A repository exists, is well-organized, and code executes properly. | The repository is easy to navigate and understand for a technically proficient (but non-subject-matter-expert) outsider. | As in 4, with exemplary documentation, environment setup instructions, and end-to-end reproducibility. |
+
+</div>
 
 
 ## Deadline
